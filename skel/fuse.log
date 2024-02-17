@@ -1,0 +1,27 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o Z:/tema1/skel/top_isim_beh.exe -prj Z:/tema1/skel/top_beh.prj work.top work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 6
+Turning on mult-threading, number of parallel sub-compilation jobs: 12 
+Determining compilation order of HDL files
+Analyzing Verilog file "Z:/tema1/skel/process.v" into library work
+WARNING:HDLCompiler:329 - "Z:/tema1/skel/process.v" Line 31: Target <out_pix> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "Z:/tema1/skel/process.v" Line 32: Target <out_pix> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "Z:/tema1/skel/process.v" Line 33: Target <out_pix> of concurrent assignment or output port connection should be a net type.
+Analyzing Verilog file "Z:/tema1/skel/image.v" into library work
+Analyzing Verilog file "Z:/tema1/skel/test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:329 - "Z:/tema1/skel/process.v" Line 31: Target <out_pix> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "Z:/tema1/skel/process.v" Line 32: Target <out_pix> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "Z:/tema1/skel/process.v" Line 33: Target <out_pix> of concurrent assignment or output port connection should be a net type.
+Completed static elaboration
+Compiling module process
+Compiling module image
+Compiling module top
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 4 Verilog Units
+Built simulation executable Z:/tema1/skel/top_isim_beh.exe
+Fuse Memory Usage: 28712 KB
+Fuse CPU Usage: 1390 ms
